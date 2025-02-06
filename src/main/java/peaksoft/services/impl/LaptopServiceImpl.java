@@ -1,8 +1,9 @@
-package peaksoft.repository.impl;
+package peaksoft.services.impl;
 
-import peaksoft.repository.CrudRepository;
-import peaksoft.repository.LaptopRepo;
+import org.springframework.stereotype.Service;
+import peaksoft.services.LaptopService;
 
-public class LaptopRepoImpl implements LaptopRepo, CrudRepository{
+@Service
+public class LaptopServiceImpl implements LaptopService {
 
 }

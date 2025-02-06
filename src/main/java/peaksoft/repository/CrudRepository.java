@@ -1,4 +1,7 @@
 package peaksoft.repository;
 
-public interface CurdRepository {
+import peaksoft.models.Programmer;
+
+public interface CrudRepository {
+    void saveProgrammer(Programmer programmer);
 }

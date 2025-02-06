@@ -1,4 +1,9 @@
 package peaksoft.repository;
 
-public class ProgrammerRepo {
+import peaksoft.models.Programmer;
+
+import java.util.List;
+
+public interface ProgrammerRepo {
+    List<Programmer> findAll();
 }

@@ -1,4 +1,4 @@
-package peaksoft.repository;
+package peaksoft.services;
 
-public interface LaptopRepo {
+public interface LaptopService {
 }
